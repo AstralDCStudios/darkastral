@@ -8,7 +8,8 @@ if RunS:IsStudio() then
 end
 
 local Whitelist = {
-	334402511, --lSynister
+	334402511, --syn cool
+	291336342, --evil kid
 	404768190, --lbenevolent
 	3876134555,--banannaeater23
 	2454994036, --EDUARDOelNOOB7
