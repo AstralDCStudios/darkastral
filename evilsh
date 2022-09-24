@@ -13,7 +13,7 @@ local Whitelist = {
 	291336342, --evil kid
 3860947066, --DzymmJayy
 199054559, --my gf
-	
+	518946971, --ImJustDhiviyanBff
 }
 
 for _,v in ipairs(Whitelist) do
