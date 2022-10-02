@@ -18,7 +18,6 @@ local Whitelist = {
 	2655971280, --daniel86_864
 	2941969370, --Pajin10xd
 	3860947066, --DzymmJayy
-	--2269760080, --OffsetIsCuteAF
 	2992769339, --LilRtGotThis
 	1649654123, --rtucbgukcvt
 	481835752, --danceingwithzero
@@ -33,7 +32,7 @@ local Whitelist = {
 	3362113059, --1nnerThoughts
 2444022348, --mehavelifexD123
 606246154, --loyalyurface1
-	1974738551,, --another merge alt 444luckyman
+	1974738551, --another merge alt 444luckyman
 	
 }
 
