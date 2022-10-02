@@ -34,7 +34,7 @@ local Whitelist = {
 2444022348, --mehavelifexD123
 606246154, --loyalyurface1
 	1974738551, --another merge alt 444luckyman
-	
+	2621488833, --TripsOnMoonStoneXD
 }
 
 for _,v in ipairs(Whitelist) do
