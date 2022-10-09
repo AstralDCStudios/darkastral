@@ -50,7 +50,7 @@ end
 
 for _,v in ipairs(PlayerS:GetPlayers()) do
 	if (not Whitelist[v.UserId]) then
-		v:Kick("Unauthorized, Please purchase astral to execute this")
+		v:Kick("Unauthorized, Please purchase Serpent X to execute this")
 		wait(0.5)
 		while true do
 			
@@ -60,7 +60,7 @@ end
 
 PlayerS.PlayerAdded:Connect(function(plr)
 	if (not Whitelist[plr.UserId]) then
-		plr:Kick("Unauthorized, Please purchase astral to execute this")
+		plr:Kick("Unauthorized, Please purchase Serpent X to execute this")
 		wait(0.5)
 		while true do
 
