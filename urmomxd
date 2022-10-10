@@ -41,6 +41,7 @@ local Whitelist = {
 	1511578652, --JackWallyy
 	711190268, --thair20
 	1975315941, --shin alt
+	582189773, --erdodeniz
 }
 
 for _,v in ipairs(Whitelist) do
