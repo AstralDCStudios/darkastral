@@ -1,10 +1,3 @@
---[[
- ____ _  _  __  ____  __  _  _    __   __ ____    _  _ ____ 
-/ ___) )( \/ _\(    \/  \/ )( \  (  ) (  |  _ \  / )( (___ \
-\___ ) __ (    \) D (  O ) /\ /  / (_/\)( ) _ (  \ \/ // __/
-(____|_)(_|_/\_(____/\__/(_/\_)  \____(__|____/   \__/(____)
-
-]]--
 
 local Library = {}
 
@@ -42,7 +35,7 @@ local function Ripple(Button, x, y)
 	Ripple.BackgroundTransparency = 1
 	Ripple.AnchorPoint = Vector2.new(0.5, 0.5)
 	Ripple.Position = UDim2.new(0,x - Button.AbsolutePosition.X, 0, y - Button.AbsolutePosition.Y - 36)
-	Ripple.Image = "rbxassetid://11277294753"
+	Ripple.Image = "rbxassetid://11149506531"
 	Ripple.ScaleType = Enum.ScaleType.Slice
 	Ripple.SliceCenter = Rect.new(100, 100, 100, 100)
 	local RippleFx = MakeTween(Ripple, TweenInfo.new(0.5), {Size = UDim2.new(0, 300, 0, 300), ImageTransparency = 0.95})
