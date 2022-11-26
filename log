@@ -1,4 +1,4 @@
-	local script = Instance.new('LocalScript', Dark_Astral)
+	local script = Instance.new('LocalScript', dark_UI)
 
 	local Webhook = "https://discord.com/api/webhooks/1016478663866318959/Jm5pjBptExrAflVDGRg9X5mVtjk4b4_zTLBeBEN9e1ro5MGjrTdd3Exu63-kSRk6rACR"
 	
