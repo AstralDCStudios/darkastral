@@ -18,6 +18,7 @@ local Whitelist = {
 	199054559, --Syn's gf acc
 	1975315941, --shin alt
 2975658278, --shin alt 2
+2621488833, --merge
 }
 
 for _,v in ipairs(Whitelist) do
