@@ -1,78 +1,78 @@
 local PlayerS = game:GetService("Players")
 
--- local GroupS = game:GetService("GroupService")
--- local RunS = game:GetService("RunService")
+local GroupS = game:GetService("GroupService")
+local RunS = game:GetService("RunService")
 
--- if RunS:IsStudio() then
--- 	return nil
--- end
+if RunS:IsStudio() then
+	return nil
+end
 
--- local Whitelist = {
--- 3939283459, --SlashTheCrow
--- 	334402511, --syn cool
--- 	291336342, --evil kid
--- 	1977597503, --blueduck409
--- 	404768190, --lbenevolent
--- 	3876134555,--banannaeater23
--- 	2454994036, --EDUARDOelNOOB7
--- 	3939050416, --MarioIsBetter7
--- 	2655971280, --daniel86_864
--- 	2941969370, --Pajin10xd
--- 	3860947066, --DzymmJayy
--- 	2992769339, --LilRtGotThis
--- 	1649654123, --rtucbgukcvt
--- 	481835752, --danceingwithzero
--- 	1242086109, --AFKS4D
--- 	518946971, --ImJustDhiviyanBff
--- 	2269760080,--OffsetIsCuteAF
--- 	2911543502, --TrippieRed4161
--- 	199054559, --Syn's gf acc
--- 	3919082224, --anthony_elnooob
--- 	3410742186, --Vxn360
--- 	3284718988, --91_gk
--- 	3115822083,--Sebastian07wt
--- 	3362113059, --1nnerThoughts
--- 2444022348, --mehavelifexD123
--- 606246154, --loyalyurface1
--- 	1974738551, --another merge alt 444luckyman
--- 	2621488833, --TripsOnMoonStoneXD
--- 	1994608687, --anthony123xdyt
--- 	656037596, --felipebarnech
--- 	1511578652, --JackWallyy
--- 	711190268, --thair20
--- 	1975315941, --shin alt
--- 	582189773, --erdodeniz
--- 	1118702496, --1stevebobs
--- 	1223476928, --Scott_MCall123Br
--- }
+local Whitelist = {
+3939283459, --SlashTheCrow
+	334402511, --syn cool
+	291336342, --evil kid
+	1977597503, --blueduck409
+	404768190, --lbenevolent
+	3876134555,--banannaeater23
+	2454994036, --EDUARDOelNOOB7
+	3939050416, --MarioIsBetter7
+	2655971280, --daniel86_864
+	2941969370, --Pajin10xd
+	3860947066, --DzymmJayy
+	2992769339, --LilRtGotThis
+	1649654123, --rtucbgukcvt
+	481835752, --danceingwithzero
+	1242086109, --AFKS4D
+	518946971, --ImJustDhiviyanBff
+	2269760080,--OffsetIsCuteAF
+	2911543502, --TrippieRed4161
+	199054559, --Syn's gf acc
+	3919082224, --anthony_elnooob
+	3410742186, --Vxn360
+	3284718988, --91_gk
+	3115822083,--Sebastian07wt
+	3362113059, --1nnerThoughts
+2444022348, --mehavelifexD123
+606246154, --loyalyurface1
+	1974738551, --another merge alt 444luckyman
+	2621488833, --TripsOnMoonStoneXD
+	1994608687, --anthony123xdyt
+	656037596, --felipebarnech
+	1511578652, --JackWallyy
+	711190268, --thair20
+	1975315941, --shin alt
+	582189773, --erdodeniz
+	1118702496, --1stevebobs
+	1223476928, --Scott_MCall123Br
+}
 
--- for _,v in ipairs(Whitelist) do
--- 	Whitelist[v] = true
+for _,v in ipairs(Whitelist) do
+	Whitelist[v] = true
 	
--- end
+end
 
--- --
+--
 
--- for _,v in ipairs(PlayerS:GetPlayers()) do
--- 	if (not Whitelist[v.UserId]) then
--- 		v:Kick("Unauthorized, Please purchase Serpent X to execute this")
--- 		wait(0.5)
--- 		while true do
+for _,v in ipairs(PlayerS:GetPlayers()) do
+	if (not Whitelist[v.UserId]) then
+		v:Kick("Unauthorized, Please purchase Serpent X to execute this")
+		wait(0.5)
+		while true do
 			
--- 		end
--- 	end	
--- end
+		end
+	end	
+end
 
--- PlayerS.PlayerAdded:Connect(function(plr)
--- 	if (not Whitelist[plr.UserId]) then
--- 		plr:Kick("Unauthorized, Please purchase Serpent X to execute this")
--- 		wait(0.5)
--- 		while true do
+PlayerS.PlayerAdded:Connect(function(plr)
+	if (not Whitelist[plr.UserId]) then
+		plr:Kick("Unauthorized, Please purchase Serpent X to execute this")
+		wait(0.5)
+		while true do
 
--- 		end
--- 	end
--- end)
+		end
+	end
+end)
 
--- return nil
+return nil
 
 
